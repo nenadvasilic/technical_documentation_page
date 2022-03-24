@@ -1,0 +1,28 @@
+#navbar {
+  position: fixed;
+  border-right: solid;
+  border-bottom: solid;
+  width: 260px;
+}
+#main-doc {
+  position: absolute;
+  margin-left: 300px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 600px) {
+  #navbar {
+    position: relative;
+  }
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+  }
+}
+header {
+  color: red;
+}
+code {
+  background-color: silver;
+}
